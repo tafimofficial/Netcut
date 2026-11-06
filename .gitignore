@@ -1,0 +1,24 @@
+# OS generated files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# Temporary and log files
+*.log
+*.tmp
+*.temp
+*.bak
+*.swp
+
+# IDE / Editor configuration
+.vs/
+.vscode/
+.idea/
+
+# User-specific configuration
+*.user
+*.userosv
+*.suo
+
