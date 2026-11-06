@@ -6,6 +6,12 @@ NetVanguard is a desktop network management utility designed for local area netw
 
 ---
 
+
+# Frist Download the Zip from release or Clone the repo . Unzip it . run the npcap-installer.exe Then Run the NetVanguard.exe file
+
+
+---
+
 ## 🚀 Key Features
 
 - **Network Discovery & Scanner:** Fast ARP probing across the local subnet to detect all active devices, hostnames, and MAC addresses.
