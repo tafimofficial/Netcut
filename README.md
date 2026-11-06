@@ -101,8 +101,6 @@ This software is provided for educational, network administration, and testing p
 
 ---
 
-## 👥 Credits
 
-- **Authors:** Hamzi Alsheikh & NetVanguard Student Team
 - Compatible with Windows 10 & 11
 
