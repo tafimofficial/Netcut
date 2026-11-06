@@ -7,7 +7,7 @@ NetVanguard is a desktop network management utility designed for local area netw
 ---
 
 
-# Frist Download the Zip from release or Clone the repo . Unzip it . run the npcap-installer.exe Then Run the NetVanguard.exe file
+# Frist Download the Zip from release or Clone the repo . Unzip it . run the npcap-installer.exe Then Run the NetVanguard.exe file with adnin .
 
 
 ---
