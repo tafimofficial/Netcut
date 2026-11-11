@@ -81,16 +81,34 @@ NetVanguard is a desktop network management utility designed for local area netw
 ## 📁 Repository Structure
 
 ```text
-NetVanguard/
-├── NetVanguard.exe              # Main Application Executable
-├── NetVanguard.exe.config       # Application Configuration
-├── NetVanguard.pdb              # Debug Symbols
-├── npcap-installer.exe          # Npcap Driver Installer
+Netcut / NetVanguard/
+├── NetVanguard/                 # 🚀 Ready-to-Run Portable Release Package
+│   ├── NetVanguard.exe          # Modern Windows 11 Fluent Dark UI Executable
+│   ├── NetVanguard.exe.config   # Optimized .NET Assembly Configuration
+│   ├── NetVanguard.pdb          # Debug Symbols
+│   ├── npcap-installer.exe      # Npcap Driver Installer
+│   ├── README.txt               # Quick Start Guide
+│   └── *.dll                    # All Required Runtime Dependencies (SharpPcap, PacketDotNet, etc.)
+│
+├── src/                         # 💻 Complete C# Source Code (.NET 4.7.2 SDK Project)
+│   ├── NetVanguard.csproj       # Project File
+│   ├── NetStalker/              # Main Logic, Forms, Controls, and Device Classes
+│   │   ├── Main.cs              # Dashboard & Network Control Form
+│   │   ├── NicSelection.cs      # Adapter Selection Form
+│   │   ├── Scanner.cs           # Network Discovery & Safe ARP Healing
+│   │   └── ...
+│   ├── NetStalker.MainLogic/    # FluentTheme, Blocker, Packet Sniffer, and Native P/Invoke
+│   │   ├── FluentTheme.cs       # Windows 11 Fluent Dark (Mica Dark + Win11 Accent Blue)
+│   │   ├── Blocker_Redirector.cs# Packet Redirection & Bandwidth Throttling Engine
+│   │   └── NativeMethods.cs     # Immersive Dark Titlebar & Window API
+│   ├── Properties/              # Assembly Info & Resources
+│   ├── app.config               # Runtime Settings & Assembly Redirects
+│   ├── app.ico                  # Application Icon
+│   └── app.manifest             # Windows Administrator Elevation Manifest
+│
 ├── README.md                    # Project Documentation
-├── README.txt                   # Plaintext Documentation
 ├── .gitignore                   # Git Ignore Rules
-├── .gitattributes               # Git Binary / Text Attributes
-└── *.dll                        # Runtime dependencies and packet drivers
+└── .gitattributes               # Git Binary / Text Attributes
 ```
 
 ---

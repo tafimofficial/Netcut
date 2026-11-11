@@ -22,3 +22,13 @@ $RECYCLE.BIN/
 *.userosv
 *.suo
 
+# Build and binary backups
+bin/
+obj/
+*.old.exe
+src/bin/
+src/obj/
+scratch/
+local.properties
+DeviceInfo.json
+
